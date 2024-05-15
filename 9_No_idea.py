@@ -13,3 +13,19 @@ for i in arr:
         score -= 1
         
 print(score)
+
+
+
+# arr = 1 5 3
+# a = 3 1
+# b  = 5 7
+
+# score = 0(2)
+# arr [1 , 5 , 3]
+# a = [3] yes +1
+# a = [1] yes + 1
+# b = [5] yes -1
+# b = [7] no 
+# score = (2-1) = 1
+
+
