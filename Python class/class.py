@@ -26,8 +26,13 @@ b = 20
 # print(s.upper())
 
 # s = "Ram sIYA"
-# # o/p: rAM Siya
-# print(s.swapcase())
+# s = s.split()
+# # print(s)
+# s = "*".join(s)
+# print(s)
+# # # o/p: rAM Siya
+# # print(s.swapcase())
+
 
 
 # n  = int(input())

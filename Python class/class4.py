@@ -71,3 +71,70 @@
     
 # n -> input = 5
 # 1 -> n (1 to 5) 1 + 2 + 3 + 4 + 5 = 15
+
+# p = lambda : print("hello")
+# print(p())
+# def add(a , b):
+#     return a+b
+
+# add = lambda a , b : a+b
+# print(add(12 , 24))
+
+# local  and global  var
+# global x 
+# gb =20
+# def test():
+#     lb = 10
+#     print(lb)
+#     print(gb)
+
+# test()
+# print(gb)
+# x = 10
+# def mohit():
+#     print(x)
+# mohit()
+# print(x)
+
+# def fun1():
+#     print("this is outer fun")
+#     x = 10
+#     def fun2():
+#         print("this is inner fun")
+#         nonlocal x
+#         x = x+1
+#         print(x)
+#     fun2()
+# fun1()
+
+# def add(x , y):
+#     x = x+1
+#     y = y*2
+#     print(x)
+#     print(y)
+# def getVal(x , y):
+#     print(x , y)
+#     add(x , y)
+# getVal(10 , 20)
+
+# x = 10
+# def update():
+#     global x
+#     x = x + 10
+#     # print(x)
+# update()
+# print(x)
+
+a = 10
+b = 10
+def update(a , b):
+    a += 2
+    b += 2
+    print(a , b)
+def val(a , b):
+    print(a , b)
+    a += 1
+    b += 1
+    update(a , b)   
+val(a , b)
+print(a , b)

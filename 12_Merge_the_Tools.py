@@ -11,11 +11,37 @@ def merge_the_tools(s , k):
         res +=  "\n"
     print(res)
 
-
-
-
 if __name__ == '__main__':
     string, k = input(), int(input())
     merge_the_tools(string, k)
 
+
+# AABCAAADA   s = 'AABCAAADA'
+# 3           k = 3
+
+# len = 9
+# len/k = 9/3 = 3
+# AB
+# CA 
+# AD
+# Sample Output
+# AB
+# CA
+# AD
+
+
+# st = aab
+# caa 
+# ada 
+
+# trick  : 
+#     seen = set()
+#     st = a d a
+#     if 'a' not in seen:
+#         seen(a , d)
+#         res += ''
+#     res += '\n'
+
+# i/p : n a m a n
+# 12321
 
